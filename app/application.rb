@@ -44,21 +44,4 @@ class Application
     end
   end
   
-  # def add_to_cart(search_term)
-  #   if @@items.include?(search_term)
-  #     @@cart << search_term
-  #     "added #{search_term}"
-  #   else 
-  #     "We don't have that item"
-  #   end
-  # end
-  
-  # def cart_status
-  #   if @@cart.empty?
-  #     "Your cart is empty"
-  #   else 
-  #     @@cart.join('\n')
-  #   end
-  # end
-  
 end
