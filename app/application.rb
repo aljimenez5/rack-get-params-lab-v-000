@@ -19,6 +19,7 @@ class Application
       search_term = req.params["q"]
       resp.write add_to_cart(search_term)
     elsif req.path.match(/cart/)
+      
     else
       resp.write "Path Not Found"
     end
@@ -43,5 +44,5 @@ class Application
     end
   end
   
-  
+  def cart_status
 end
