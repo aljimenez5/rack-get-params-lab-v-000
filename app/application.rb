@@ -53,12 +53,12 @@ class Application
   #   end
   # end
   
-  def cart_status
-    if @@cart.empty?
-      "Your cart is empty"
-    else 
-      @@cart.join('\n')
-    end
-  end
+  # def cart_status
+  #   if @@cart.empty?
+  #     "Your cart is empty"
+  #   else 
+  #     @@cart.join('\n')
+  #   end
+  # end
   
 end
