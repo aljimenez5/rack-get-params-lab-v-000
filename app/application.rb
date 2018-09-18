@@ -28,4 +28,6 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
+  
+  def add_to_cart
 end
