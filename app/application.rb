@@ -49,6 +49,7 @@ class Application
       "Your cart is empty"
     else 
       @@cart.each do |item|
+        binding.pry
         "#{item}\n"
       end
     end
