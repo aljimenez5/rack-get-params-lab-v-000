@@ -49,7 +49,6 @@ class Application
       "Your cart is empty"
     else 
       @@cart.join('\n')
-      end
     end
   end
   
