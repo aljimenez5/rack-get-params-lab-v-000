@@ -36,6 +36,7 @@ class Application
     if @@items.include?(search_term)
       @@cart << search_term
     end
+  end
   
   
 end
