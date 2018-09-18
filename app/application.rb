@@ -47,5 +47,6 @@ class Application
   def cart_status
     if @@cart.empty?
       "Your cart is empty"
+    else @@cart.each do |item|
   end
 end
