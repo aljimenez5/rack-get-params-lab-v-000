@@ -45,4 +45,6 @@ class Application
   end
   
   def cart_status
+    if @@cart.empty?
+  end
 end
