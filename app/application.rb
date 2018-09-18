@@ -48,7 +48,7 @@ class Application
     if @@cart.empty?
       "Your cart is empty"
     else 
-      @@cart.ma[] do |item|
+      @@cart.map do |item|
         "#{item}\n"
       end
     end
