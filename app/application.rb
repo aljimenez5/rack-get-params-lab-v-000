@@ -21,7 +21,7 @@ class Application
         @@cart << search_term
         "added #{search_term}"
       else 
-        "We don't have that item
+        "We don't have that item"
     elsif req.path.match(/cart/)
       resp.write cart_status
     else
@@ -39,14 +39,14 @@ class Application
     end
   end
   
-  def add_to_cart(search_term)
-    if @@items.include?(search_term)
-      @@cart << search_term
-      "added #{search_term}"
-    else 
-      "We don't have that item"
-    end
-  end
+  # def add_to_cart(search_term)
+  #   if @@items.include?(search_term)
+  #     @@cart << search_term
+  #     "added #{search_term}"
+  #   else 
+  #     "We don't have that item"
+  #   end
+  # end
   
   def cart_status
     if @@cart.empty?
