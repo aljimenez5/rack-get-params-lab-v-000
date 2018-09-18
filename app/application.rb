@@ -32,5 +32,7 @@ class Application
     end
   end
   
+  def add_to_cart(search_term)
+  
   
 end
