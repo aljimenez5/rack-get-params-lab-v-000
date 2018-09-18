@@ -48,8 +48,7 @@ class Application
     if @@cart.empty?
       "Your cart is empty"
     else 
-      @@cart.map do |item|
-        "#{item}\n"
+      @@cart.join('\n')
       end
     end
   end
