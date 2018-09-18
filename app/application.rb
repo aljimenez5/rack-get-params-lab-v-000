@@ -33,6 +33,8 @@ class Application
   end
   
   def add_to_cart(search_term)
+    if @@items.include?(search_term)
+      @@cart << search_term
   
   
 end
